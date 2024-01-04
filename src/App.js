@@ -1,11 +1,13 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import Intro from "./components/Intro";
 
 function App() {
   return (
     <div className="App">
       {/* <h1 className="bg-purple-700">Hello world</h1> */}
-      <Navbar />
+      <Header />
+      <Intro />
     </div>
   );
 }

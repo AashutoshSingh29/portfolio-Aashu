@@ -9,9 +9,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #081b29;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.Intro {
+  margin-top: 30vh;
+}
+
+.image {
+  border-radius: 58% 42% 71% 29% / 31% 14% 86% 69%;
 }
