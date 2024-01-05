@@ -3,8 +3,8 @@ import photo from "../Images/profileImg.jpg";
 const Intro = () => {
   return (
     <>
-      <div className="flex justify-between">
-        <div className=" Intro container text-justify px-52 w-3/5 ">
+      <div className="flex flex-col md:flex-row justify-around md:my-0">
+        <div className=" Intro container text-justify px-4 md:px-6 lg:px-10 w-full md:w-3/5 mb-6 md:mb-0 ">
           <h1 className=" text-3xl text-white">
             Hi, I'm Aashutosh Singh Gautam
           </h1>
@@ -17,7 +17,7 @@ const Intro = () => {
           </p>
         </div>
         <div className=" px-9 py-12 mr-52 my-10">
-          <div className="image bg-teal-400 w-80 h-80">
+          <div className="image bg-teal-400 w-80 h-80 mx-auto md:mx-0 overflow-hidden">
             <img className=" w-60 h-60 rounded-full px-5" src={photo} alt="" />
           </div>
         </div>
