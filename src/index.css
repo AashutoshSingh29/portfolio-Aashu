@@ -24,3 +24,85 @@ code {
 .image {
   border-radius: 58% 42% 71% 29% / 31% 14% 86% 69%;
 }
+
+.header-navbar {
+  /* flex flex-row justify-between mx-4 bg-transparent */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: transparent;
+}
+
+.header-logo {
+  /* text-white font-serif font-bold my-4  */
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.header-navbar nav {
+  /*  md:flex space-x-4  items-center justify-center border border-black-500 border-solid  bg-gray-500 hover:bg-slate-900 hover:text-white  */
+  width: 33.333333%;
+  margin-top: 0.25rem /* 4px */;
+  margin-bottom: 0.25rem /* 4px */;
+  border: solid black 1px;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+  display: flex;
+  justify-content: center;
+}
+
+.header-navbar nav:hover {
+  /* --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity)); */
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (max-width: 768px) {
+  .header-navbar nav {
+    display: none;
+  }
+}
+
+.header-toogle {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  padding-right: 0.5rem /* 8px */;
+}
+
+.toogle {
+  width: 2.75rem /* 44px */;
+  height: 2.75rem /* 44px */;
+  display: none;
+}
+@media (max-width: 768px) {
+  .toogle {
+    display: block;
+  }
+}
+
+.header-navbar li {
+  padding-left: 1rem /* 16px */;
+  padding-right: 1rem /* 16px */;
+  margin-top: 0.5rem /* 8px */;
+  margin-bottom: 0.5rem /* 8px */;
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+.header-navbar li:hover {
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+}
+
+.header-navbar ul {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0.75rem /* 12px */;
+  margin-right: 0.75rem /* 12px */;
+  cursor: pointer;
+}
