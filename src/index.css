@@ -91,12 +91,14 @@ code {
 .header-navbar li {
   padding-left: 1rem /* 16px */;
   padding-right: 1rem /* 16px */;
-  margin-top: 0.5rem /* 8px */;
-  margin-bottom: 0.5rem /* 8px */;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  box-sizing: border-box;
 }
 .header-navbar li:hover {
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 
 .header-navbar ul {
@@ -105,4 +107,5 @@ code {
   margin-left: 0.75rem /* 12px */;
   margin-right: 0.75rem /* 12px */;
   cursor: pointer;
+  box-sizing: border-box;
 }
