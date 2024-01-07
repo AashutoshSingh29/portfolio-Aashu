@@ -109,3 +109,79 @@ code {
   cursor: pointer;
   box-sizing: border-box;
 }
+
+/* Intro Css */
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .intro {
+    margin-top: 80px;
+  }
+}
+
+.intro p {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  padding-top: 0.75rem /* 12px */;
+  padding-bottom: 0.75rem /* 12px */;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  width: 60%;
+  padding: 16px;
+  margin-left: 40px;
+}
+
+@media (max-width: 786px) {
+  .intro-container {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.intro-name {
+  font-size: 1.875rem /* 30px */;
+  line-height: 2.25rem /* 36px */;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.intro-designation {
+  font-size: 1.5rem /* 24px */;
+  line-height: 2rem /* 32px */;
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+.profile-image {
+  padding-left: 2.25rem /* 36px */;
+  padding-right: 2.25rem /* 36px */;
+  padding-top: 3rem /* 48px */;
+  padding-bottom: 3rem /* 48px */;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 786px) {
+  .profile-image {
+    margin: 0%;
+    padding: 0%;
+  }
+}
+
+.profile-image img {
+  padding: 2rem;
+  margin: 1.5rem;
+  width: 300px;
+  height: 300px;
+}
