@@ -8,9 +8,13 @@ const Header = () => {
         <span className="header-logo">Aashutosh</span>
         <nav>
           <ul>
-            <li>Home</li>
+            <li>
+              <a href="/">Home</a>
+            </li>
             <li>About</li>
-            <li>Qualification</li>
+            <li>
+              <a href="#carouselExampleDark">Qualification</a>
+            </li>
             <li>Contact</li>
           </ul>
         </nav>
