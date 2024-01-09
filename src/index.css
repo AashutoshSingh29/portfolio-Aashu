@@ -9,7 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #081b29;
+  /* background: #081b29; */
 }
 
 code {
@@ -23,6 +23,10 @@ code {
 
 .image {
   border-radius: 58% 42% 71% 29% / 31% 14% 86% 69%;
+}
+
+.header {
+  background: #081b29;
 }
 
 .header-navbar {
@@ -116,6 +120,8 @@ code {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  height: 100vh;
+  background: #081b29;
 }
 
 @media (max-width: 768px) {
@@ -184,4 +190,10 @@ code {
   margin: 1.5rem;
   width: 300px;
   height: 300px;
+}
+
+/* Education css */
+
+.education {
+  padding: 50vh;
 }
