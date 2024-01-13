@@ -16,7 +16,9 @@ const Header = () => {
               <li>
                 <a href="#education">Qualification</a>
               </li>
-              <li>Contact</li>
+              <li>
+                <a href="#contact-us">Contact</a>
+              </li>
             </ul>
           </nav>
           <div className="header-toogle">
